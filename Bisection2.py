@@ -1,3 +1,4 @@
+#Bisection 2.Soru
 x1=1
 x2=2
 for i in range(1,5):
@@ -5,7 +6,7 @@ for i in range(1,5):
  denklem1=(x2**3)+(4*(x2**2))-10
  print(f"f[{x1}] fonksiyondaki degeri :",denklem)
  print(f"f[{x2}] fonksiyondaki degeri :",denklem1)
- x3=float((x1+x2)/2)#orta kök
+ x3=float((x1+x2)/2)
  print(f"{i}.kok tahmini:{x3}")
  denklem2=(x3**3)+(4*(x3**2))-10
  print(f"{i}. iterasyon sonucu {x3} noktasiyla elde edilen kok degeri {denklem2}")
